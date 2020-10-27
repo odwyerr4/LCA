@@ -38,14 +38,14 @@ root.left.right = Node(12)
 root.left.right.left = Node(10) 
 root.left.right.right = Node(14) 
   
-# n1 = 10 ; n2 = 14
-# t = lca(root, n1, n2) 
-# print (f"{n1}, {n2}, {t.data}") 
+n1 = 10 ; n2 = 14
+t = lca(root, n1, n2) 
+print (f"{n1}, {n2}, {t.data}") 
   
-# n1 = 14 ; n2 = 8
-# t = lca(root, n1, n2) 
-# print(f"{n1} {n2} {t.data}")
+n1 = 14 ; n2 = 8
+t = lca(root, n1, n2) 
+print(f"{n1} {n2} {t.data}")
   
-# n1 = 10 ; n2 = 22
-# t = lca(root, n1, n2) 
-# print (f"{n1} {n2} {t.data}") 
+n1 = 10 ; n2 = 22
+t = lca(root, n1, n2) 
+print (f"{n1} {n2} {t.data}") 
